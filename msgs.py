@@ -13,6 +13,6 @@ async def on_message(msg):
         if str(msg.content)[:6] == '!help':
             await msg.channel.send(embed=discord.Embed(
                 title="!Help",
-                description="Amazing that you think I'm a helpful bot.",
+                description="1 \n 2 \n 3",
                 color=discord.Color.from_rgb(0,0,255)
             ))
