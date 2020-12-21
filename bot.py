@@ -6,7 +6,7 @@ import func, msgs
 from datetime import datetime as dt
 
 # Set token so bot can connect to Discord services
-tokenFile = open('../dnd-token.txt', 'r')
+tokenFile = open('../test-token.txt', 'r')
 TOKEN = tokenFile.read()
 tokenFile.close()
 
