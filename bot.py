@@ -64,5 +64,3 @@ except KeyboardInterrupt:
 finally:
     # Closes loop thread on OS
     loop.close()
-    # Reruns bot (press Ctrl+C during this to kill the bot)
-    os.system("python3 bot.py")

@@ -10,3 +10,5 @@ async def on_message(msg):
         if str(msg.content)[:6] == '!roll ':
             # Call roll command in func.py
             await func.roll(msg, str(msg.content)[6:])
+        if str(msg.content)[:6] == '!help':
+            await send("test")
