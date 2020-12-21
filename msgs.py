@@ -11,4 +11,8 @@ async def on_message(msg):
             # Call roll command in func.py
             await func.roll(msg, str(msg.content)[6:])
         if str(msg.content)[:6] == '!help':
-            await msg.channel.send("test")
+            await msg.channel.send(embed=discord.Embed(
+                title="!Help",
+                description="Amazing that you think I'm a helpful bot.",
+                color=discord.Color.from_rgb(0,0,255)
+            ))
