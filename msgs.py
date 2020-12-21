@@ -4,8 +4,8 @@ import func
 
 ### Run when a command message is sent (that the bot can read)
 async def on_message(msg):
-    # Only works in a channel named "dndbot"
-    if str(msg.channel) == 'dndbot':
+    # Only works in a channel named "idk"
+    if str(msg.channel) == 'idk':
         # Works if command is "!roll"
         if str(msg.content)[:6] == '!roll ':
             # Call roll command in func.py
