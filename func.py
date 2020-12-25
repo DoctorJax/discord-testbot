@@ -37,7 +37,7 @@ async def roll(msg, number):
             if i == multiplier - 1:
                 rolls = rolls + '{}'.format(rollValue)
             else:
-                rolls = rolls + '{}, '.format(rollValue)
+                rolls = rolls + '{}\n '.format(rollValue)
 
     # Calls RNG
     else:
