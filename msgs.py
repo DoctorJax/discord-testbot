@@ -16,7 +16,7 @@ async def on_message(msg):
                 description="**I'm currently in development, but here are a few commands you can do:** \n ```!help (I don't have to tell you what this does)``` \n ```!roll <number>*[multiplier]```",
                 color=discord.Color.from_rgb(0,0,255)
             ))
-        if str(msg.content)[:6] == '':
-            await msg.channel.send(
-                
-            )
+#        if str(msg.content)[:6] == '':
+#            await msg.channel.send(
+#                
+#            )
