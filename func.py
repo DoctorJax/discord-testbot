@@ -50,7 +50,7 @@ async def roll(msg, number):
             # Send an embedded message telling user not to roll as much
             await msg.channel.send(embed=discord.Embed(
                 title = "{0.author.name}".format(msg),
-                description = "Die is too large, cap is 100",
+                description = "Die is too large, cap is 1000",
                 color = discord.Color.from_rgb(
                     255,
                     0,
