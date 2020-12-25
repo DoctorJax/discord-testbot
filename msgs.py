@@ -13,6 +13,6 @@ async def on_message(msg):
         if str(msg.content)[:6] == '!help':
             await msg.channel.send(embed=discord.Embed(
                 title="!Help",
-                description="1 \n 2 \n 3",
+                description="I'm currently in development, but here are a few commands you can do: \n !help (I don't have to tell you what this does) \n !roll <number>*[multiplier]",
                 color=discord.Color.from_rgb(0,0,255)
             ))
